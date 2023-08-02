@@ -1,0 +1,99 @@
+body {
+    background-image: url(../img/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+h1 {
+    color: #3ca55c;
+}
+h1::after {
+    content: "";
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    1% {
+        content: "B"
+    }
+
+    5% {
+        content: "BO"
+    }
+
+    10% {
+        content: "BOO"
+    }
+
+    15% {
+        content: "BOOK"
+    }
+
+    20% {
+        content: "BOOK M"
+    }
+
+    25% {
+        content: "BOOK MA"
+    }
+
+    30% {
+        content: "BOOK MAR"
+    }
+
+    35% {
+        content: "BOOK MARK"
+    }
+
+    40% {
+        content: "BOOK MARKE"
+    }
+
+    55% {
+        content: "BOOK MARKER"
+    }
+
+    60% {
+        content: "BOOK MARKE"
+    }
+
+    65% {
+        content: "BOOK MARK"
+    }
+
+    70% {
+        content: "BOOK MAR"
+    }
+
+    75% {
+        content: "BOOK MA"
+    }
+
+    80% {
+        content: "BOOK M"
+    }
+
+    85% {
+        content: "BOOK"
+    }
+
+    90% {
+        content: "BOO"
+    }
+
+    95% {
+        content: "BO"
+    }
+
+    100% {
+        content: "B"
+    }
+}
+
+h2 {
+    background-image: linear-gradient(to right, #2879e4, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
